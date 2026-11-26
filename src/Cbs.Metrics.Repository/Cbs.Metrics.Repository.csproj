@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Repository layer: EF Core queries + mappers (Data entity <-> Domain model) -->
+  <ItemGroup>
+    <ProjectReference Include="..\Cbs.Metrics.Domain\Cbs.Metrics.Domain.csproj" />
+    <!-- PrivateAssets="all": projects that reference Repository (BusinessLogic) do NOT get
+    access to the EF entities. -->
+    <ProjectReference Include="..\Cbs.Metrics.Data\Cbs.Metrics.Data.csproj" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

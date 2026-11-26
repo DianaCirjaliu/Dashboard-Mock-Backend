@@ -1,0 +1,6 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Technical services: current user, JWT handling, settigs, clock, refresh trigger. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Cbs.Metrics.Domain\Cbs.Metrics.Domain.csproj" />
+  </ItemGroup>
+</Project>

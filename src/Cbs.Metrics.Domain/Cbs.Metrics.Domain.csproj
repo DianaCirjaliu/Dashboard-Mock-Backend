@@ -1,0 +1,4 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Business models shared by every program. 
+  References nothing on purpose. -->
+</Project>

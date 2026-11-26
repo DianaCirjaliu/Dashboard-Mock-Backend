@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Cbs.Metrics.Api/Cbs.Metrics.Api.csproj" />
+    <Project Path="src/Cbs.Metrics.BusinessLogic/Cbs.Metrics.BusinessLogic.csproj" />
+    <Project Path="src/Cbs.Metrics.Contracts/Cbs.Metrics.Contracts.csproj" />
+    <Project Path="src/Cbs.Metrics.Data/Cbs.Metrics.Data.csproj" />
+    <Project Path="src/Cbs.Metrics.Domain/Cbs.Metrics.Domain.csproj" />
+    <Project Path="src/Cbs.Metrics.Migrate/Cbs.Metrics.Migrate.csproj" />
+    <Project Path="src/Cbs.Metrics.Repository/Cbs.Metrics.Repository.csproj" />
+    <Project Path="src/Cbs.Metrics.Services/Cbs.Metrics.Services.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Cbs.Metrics.Tests/Cbs.Metrics.Tests.csproj" />
+  </Folder>
+</Solution>

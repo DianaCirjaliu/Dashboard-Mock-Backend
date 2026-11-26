@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Console app run once before each release: runs the versioned SQL scripts (Scripts/),
+the always-run scripts
+  (AlwaysRun/: DB roles and grants) and, in Development only, the fake data (DevSeed/).
+It owns the database structure. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+</Project>

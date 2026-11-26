@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Business rules. Sees Domain, Repository interfaces and Services. Never sees Contracts or EF entities. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Cbs.Metrics.Domain\Cbs.Metrics.Domain.csproj" />
+    <!-- PrivateAssets="all": the Api does NOT see Repository through BusinessLogic. Only
+    BusinessLogic uses it. -->
+    <ProjectReference
+      Include="..\Cbs.Metrics.Repository\Cbs.Metrics.Repository.csproj"
+      PrivateAssets="all"
+    />
+    <ProjectReference Include="..\Cbs.Metrics.Services\Cbs.Metrics.Services.csproj" />
+  </ItemGroup>
+</Project>

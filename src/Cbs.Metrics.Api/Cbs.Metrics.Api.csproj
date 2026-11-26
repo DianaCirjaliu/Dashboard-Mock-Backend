@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- Repository and Data are referenced ONLY so Program.cs can register them in DI.
+Controllers must not use them. -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cbs.Metrics.Contracts\Cbs.Metrics.Contracts.csproj" />
+    <ProjectReference Include="..\Cbs.Metrics.Domain\Cbs.Metrics.Domain.csproj" />
+    <ProjectReference Include="..\Cbs.Metrics.BusinessLogic\Cbs.Metrics.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Cbs.Metrics.Services\Cbs.Metrics.Services.csproj" />
+  </ItemGroup>
+</Project>
